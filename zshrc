@@ -54,7 +54,11 @@ export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/Cellar
 
 #export PS1="[@%n %~]$ "
 autoload -U colors && colors
+<<<<<<< HEAD
 PS1="%{$fg[blue]%}[%n@%m %~]%{$reset_color%}$ "
+=======
+PS1="%{$fg[blue]%}[@%n %~]%{$reset_color%}$ "
+>>>>>>> 39ca159b8d27b6ef6856fe8cae0300a6a0ff9b47
 
 autoload -U promptinit
 promptinit
@@ -80,4 +84,7 @@ setopt hist_ignore_all_dups
 # donnot record some records
 setopt hist_ignore_space
 
+<<<<<<< HEAD
 setopt no_nomatch
+=======
+>>>>>>> 39ca159b8d27b6ef6856fe8cae0300a6a0ff9b47
