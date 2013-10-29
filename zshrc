@@ -54,7 +54,7 @@ export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/Cellar
 
 #export PS1="[@%n %~]$ "
 autoload -U colors && colors
-PS1="%{$fg[blue]%}[@%n %~]%{$reset_color%}$ "
+PS1="%{$fg[blue]%}[%n@%m %~]%{$reset_color%}$ "
 
 autoload -U promptinit
 promptinit
